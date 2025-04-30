@@ -1,14 +1,14 @@
 :root{
-    --back_principal: blueviolet;
+    --back_principal: rgb(226, 101, 43);
     --back_secundario: white;
-    --bordas: rgba(131, 123, 148, 0.529);
-    --text_principal:rgb(73, 31, 112);
+    --bordas: rgba(148, 133, 123, 0.529);
+    --text_principal:rgb(112, 61, 31);
     --text_secundario: black;
     --text_sociais: white;
     --text_p: rgb(48, 46, 46);
-    --back_footer: rgb(60, 9, 102);
+    --back_footer: rgb(70, 40, 1);
     --linha: gray;
-    --label: rgb(37, 1, 70);
+    --label: rgb(70, 40, 1);
 }
 
 
@@ -359,9 +359,9 @@ label samp{
 }
 
 .dark-on:checked ~ .dark-mode{ 
-    --back_principal: rgb(39, 19, 58);
+    --back_principal: rgb(58, 38, 19);
     --back_secundario: black;
-    --text_principal:rgb(200, 161, 233);
+    --text_principal:rgb(233, 199, 161);
     --text_secundario: white;
     --text_p: rgb(179, 174, 174);
     --label: rgb(255, 255, 255);
